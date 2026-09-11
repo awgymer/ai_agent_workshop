@@ -1,0 +1,9 @@
+[package]
+name = "mytools"
+version.workspace = true
+edition.workspace = true
+description = "A reimplementation of a subset of bedtools"
+
+[[bin]]
+name = "mytools"
+path = "src/main.rs"
