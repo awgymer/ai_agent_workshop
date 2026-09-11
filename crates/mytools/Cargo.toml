@@ -7,3 +7,6 @@ description = "A reimplementation of a subset of bedtools"
 [[bin]]
 name = "mytools"
 path = "src/main.rs"
+
+[dependencies]
+mytools-core.workspace = true
