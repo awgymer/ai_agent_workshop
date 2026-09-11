@@ -1,0 +1,9 @@
+[package]
+name = "mytools-core"
+version.workspace = true
+edition.workspace = true
+description = "Shared engine for mytools: record I/O, overlap logic, index, sweep, merge"
+
+[dependencies]
+noodles.workspace = true
+flate2.workspace = true

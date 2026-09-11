@@ -1,7 +1,14 @@
 [workspace]
 resolver = "2"
-members = ["crates/mytools"]
+members = ["crates/mytools-core", "crates/mytools"]
 
 [workspace.package]
 version = "0.1.0"
 edition = "2024"
+
+[workspace.dependencies]
+# BAM reading and writing, SAM headers and BGZF: binary formats not worth hand-writing (SPEC §2).
+noodles = { version = "0.116", features = ["bam", "sam", "bgzf"] }
+# gzip decoding for compressed text input, detected from content (SPEC §2).
+flate2 = "1"
+mytools-core = { path = "crates/mytools-core" }
