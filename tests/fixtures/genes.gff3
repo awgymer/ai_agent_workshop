@@ -1,0 +1,12 @@
+##gff-version 3
+##sequence-region chr17 1 83257441
+chr17	HAVANA	gene	7668421	7687490	.	-	.	ID=gene:TP53;Name=TP53
+chr17	HAVANA	mRNA	7668421	7687490	.	-	.	ID=tx:TP53;Parent=gene:TP53
+chr17	HAVANA	exon	7668421	7669690	.	-	.	Parent=tx:TP53
+chr17	HAVANA	exon	7670609	7670715	.	-	.	Parent=tx:TP53
+chr17	HAVANA	CDS	7670609	7670715	.	-	0	Parent=tx:TP53
+chr17	HAVANA	gene	7661779	7687538	.	+	.	ID=gene:WRAP53;Name=WRAP53
+chr17	HAVANA	exon	7686000	7687538	.	+	.	Parent=gene:WRAP53
+chr7	HAVANA	gene	55019017	55211628	.	+	.	ID=gene:EGFR;Name=EGFR
+chr7	HAVANA	exon	55019017	55019365	5	+	.	Parent=gene:EGFR
+chr7	HAVANA	exon	55142286	55142437	7	+	.	Parent=gene:EGFR
